@@ -1,0 +1,127 @@
+header{
+ 
+background-color: $PrimaryColor;
+width: 100vw;
+height: 100vh;
+position: relative;
+
+
+.logo-white{
+   position: relative;
+   left: 3%;
+   top:5%;
+  width: 11%;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-family: 'Noto Serif', serif;
+  background-color: rgba(0, 0, 0, 0.151);
+  text-align: center;
+   padding: 10px 20px;
+   border: 1px solid rgb(128, 125, 125);
+   border-radius: 4px;
+
+   &:hover{
+      background-color: rgba(0, 0, 0, 0.075);
+   }
+}
+
+ /*  Navigation  */
+
+ .navigation{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    width: 50%;
+    transform: translate(-80%,-5%);
+ }
+
+nav{
+
+ li{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+    a{
+      text-decoration: none;
+      color: white;
+      font-size:15px;
+      letter-spacing: 1px;
+      font-family: 'Noto Serif', serif;
+     
+  }
+    &:last-child{
+      background-color: rgb(44, 42, 42);
+      padding: 8px 15px;
+      border-radius: 4px;
+
+      &:hover{
+         background-color: rgba(44, 42, 42, 0.877);
+      }
+   }
+
+  
+
+}
+
+}
+
+i{
+   font-size: 64px;
+}
+
+.icon-down{
+   i{
+      font-size: 50px;
+   }
+   color: white;
+   @include Position(50%,90%);
+}
+}
+
+
+
+
+
+.textbox{
+   position:absolute;
+   left:20%;
+   top: 40%;
+   width: 80%;
+   transform: translate(-20%,-40%);
+   display: inline-block;
+   line-height: 70px;
+
+   h1{
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 170px;
+      color: white;
+      display: inline;
+     @include Position(0%,100%);
+   }
+
+   h2{
+      font-family: 'Cormorant Garamond', serif;
+      color: white;
+      font-size: 100px;
+      left:17%;
+      top: 40%;
+      transform: translate(-20%,-40%);
+      
+   }
+   
+  
+
+
+}
+
+
+
+
+  
+
+
+
+

@@ -1,0 +1,50 @@
+footer{
+    background-color: rgb(37, 37, 37);
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+
+    span{
+
+        @include Position(50%,70%);
+        color: white;
+    
+    }
+
+    h6{
+        @include Position(50%,80%);
+        color: white;
+        font-size: 15px;
+
+
+    }
+
+    
+    
+    #arrow-up{
+        font-size: 50px;
+        @include Position(50%,-10%);
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+        
+    }
+
+    nav{
+        @include Position(50%,30%);
+       display: inline-block;
+        width: 50%;
+        margin-left: 50px;
+        font-size: 40px;
+        word-spacing: 60px;
+
+
+        i{
+            
+           color: $PrimaryColor;
+        }
+
+      
+    }
+}
+

@@ -1,0 +1,82 @@
+.section-skills{
+width: 100vw;
+height: 120vh;
+position: relative;
+background-color: $PrimaryColor;
+
+h1{
+    @include Position(15%,15%); 
+    
+    font-size: 40px;
+    color: rgb(254, 255, 255);
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(235, 231, 231);
+    font-family: serif;
+}
+}
+
+
+.container-progress{
+    @include Position(70%,80%);
+    width: 40%;
+    
+ 
+
+.progressbar{
+    background-color: rgb(161, 148, 148);
+    width:100%;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+
+
+.progress{
+    border-radius: 4px;
+   
+    height: 30px;
+    background-color: rgb(52, 54, 52);
+    text-align: center;
+    color: white;    
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.width1{
+width: 70%;  
+}
+.width2{
+width: 55%;
+}
+.width3{
+ width: 20%;
+ }
+.width4{
+ width: 60%;
+}
+.width5{
+width: 80%;
+}
+.width6{
+width: 30%;
+}
+    
+
+}
+
+
+.text{
+    @include Position(30%,80%);
+    h2{
+        margin-bottom: 51px;
+    color: white;
+font-size: 25px;
+font-family: 'Cormorant Garamond', serif;
+
+}
+}
+
+
+

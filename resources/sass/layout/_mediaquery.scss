@@ -1,0 +1,94 @@
+/*   Big  size Tablets to 1200px */
+@media only screen and (max-width:1200px){
+    header {
+
+        ul li {
+            margin-right: 40px;
+        }
+        background-color: rgb(49, 138, 216);
+        ul li a{
+            font-size: 10px;
+        }
+
+
+
+        .textbox h1{
+font-size: 130px;
+        }
+
+        .textbox h2{
+            font-size: 80px;
+        }
+    }
+
+
+
+}
+
+
+
+/*   Big  size Tablets 768-1023px */
+@media only screen and (max-width:1023px){}
+
+
+
+    /*   Medium size Tablets 481-767px */
+@media only screen and (max-width:767px){
+
+
+
+        header{
+            ul li {
+                margin-right: 20px;
+            }
+            
+            ul li a{
+                font-size: 10px;
+            }
+        
+        
+        
+            .textbox h1{
+        font-size: 60px;
+        @include Position(10%,100%);
+            }
+
+        
+            .textbox h2{
+                font-size: 40px;
+                @include Position(10%,0%);
+            }
+        }
+
+}
+
+   /*   Small phones 0-481px */
+   @media only screen and (max-width:481px){
+header{
+    ul li {
+        margin-right: 40px;
+    }
+    
+    ul li a{
+        font-size: 15px;
+    }
+
+.textbox{
+
+    @include Position(0%,40%);
+    width: 100%;
+    h1{
+        font-size: 60px;
+        
+            }
+        
+             h2{
+                font-size: 40px;
+        
+            }
+}
+
+
+}
+   }
+
